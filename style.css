@@ -3,7 +3,7 @@
   .A1{
   width: 100%;
   height: 123px;
-  background-color: #F2F1DF;
+  background-color: #f4f4f4;
   position: relative;
   animation-name: myfirst;
   animation-duration: 900ms;
@@ -24,12 +24,12 @@
 
 @keyframes myfirst {
   from {
-    background-color: #F2F1DF;
+    background-color: #f4f4f4;
     width: 0%;
     top: 0px;
   }
   100% {
-    background-color: #333333;
+    background-color: #666666;
       width: 100%;
     top: 0px;
 }
@@ -54,8 +54,9 @@
  .container{
   width:98%;
   margin: 10px;
-  top:60px;
+  top:50px;
   box-sizing: border-box;
+  
 
 }
 
@@ -70,7 +71,7 @@
   width:66.3%;
   height:auto;
   float:left;
-  margin-top: 190px;
+  margin-top: 150px;
   padding:10px;
   box-sizing: border-box;
 }
@@ -78,7 +79,7 @@
 .description{
   width: 33.7%;
   height:100%;
-  margin-top: 260px;
+  margin-top: 200px;
   max-height: 600px;
   float: left;
   padding: 10px;
@@ -92,14 +93,14 @@
   left: 0;
   bottom: 0px;
   width: 100%;
-  background-color: #F2F1DF;
+  background-color: #f4f4f4;
 }
 
 header{
   width:100%;
   height:153px;
   float: left;
-  background:#333333;
+  background:#666666;
   position: absolute;
   top:0;
   left: 0;
@@ -124,11 +125,11 @@ body {
   margin: 0em;
   width: 100%;
   height: 80%%;
-  background-color: #F2F1DF;
+  background-color: #f4f4f4;
 }
 
 h1 {
-  color: #F2F1DF;
+  color: #f4f4f4;
   font-size: 30pt;
 }
 .special-h2{
@@ -139,12 +140,18 @@ h1 {
 h2 {
   font-size: 13pt;
   column-span: all;
+  color: #666666;
 /*   margin-top:0; */
+}
+
+p{
+  color: #666666;
 }
 
 a{
 text-decoration: none;
-color:#F2F1DF;
+color:#f4f4f4;
+
 }
 
 a:link{
@@ -211,7 +218,7 @@ p {
 ul {
   margin: 0;
   padding: 0;
-  color:#F2F1DF;
+  color:#f4f4f4;
 }
 
 li {
@@ -219,7 +226,7 @@ li {
   list-style-type: none;
 
   margin-top: 2px;
-  color:#F2F1DF;
+  color:#f4f4f4;
 }
 
 li.bullet {
@@ -233,7 +240,7 @@ li.bullet a {
 }
 
 li a {
-  color: #F2F1DF;
+  color: #f4f4f4;
   /*   text-decoration: none; */
 }
 
